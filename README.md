@@ -1,7 +1,7 @@
 R-FAP
 =====
 
-This repository contains the Perl source code for the R-FAP funtion prediction tool.
+This repository contains the Perl source code for the R-FAP funtion prediction tool. It also contains the FASTA-formatted database file of Salmonella enterica, which comprises the pan-genome (or, perhaps more accurately, the pan-proteome) of S. entierica, and the three-column CSV file with the functional prediction for every sequence in this database.
 
 The tool is entirely contained within the Perl script 'R-FAP_annotation_for_multiple_genomes.pl' which, obviously, requires Perl to run, but also has several other dependencies. First, there are a set of file dependencies; in addition to the FASTA-formatted pan-genome (or perhaps more accuately, pan-proteome) of the taxon under study as well as the '.faa' files from each strain in question (grouped into a single directory), the annotations for the database are input as a tab-delimited file consisting of three columns: the database sequence name, the annotation tool used to determine function a priori, and the predicted funtion itself. 
 
